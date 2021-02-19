@@ -41,7 +41,7 @@
             <version>3.0.0-M5</version>
             <configuration>
                 <argLine>
-                    -javaagent:"/Users/priv/.m2/repository/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    -javaagent:"/var/jenkins_home/.m2/repository/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                 </argLine>
                 <suiteXmlFiles>
                     <suiteXmlFile>testng.xml</suiteXmlFile>
