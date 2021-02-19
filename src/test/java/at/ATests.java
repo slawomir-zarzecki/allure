@@ -1,6 +1,7 @@
 package at;
 
 import io.qameta.allure.Story;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ATests {
@@ -15,7 +16,7 @@ public class ATests {
 
     @Test
     public void AT2 (){
-
+        Assert.assertTrue(false,"Problem");
 
     }
 
